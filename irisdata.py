@@ -7,8 +7,8 @@ from pandas.plotting import scatter_matrix
 from sklearn.neighbors import KNeighborsClassifier
 import mglearn
 import warnings
-warnings.filterwarnings("ignore")
 
+warnings.filterwarnings("ignore")
 
 # Comon dataset which is iris dataset of sklearn
 iris_dataset = load_iris()
@@ -95,7 +95,8 @@ plt.hist2d(iris_dataframe.get("petal length (cm)"), y_train)
 plt.hist2d(iris_dataframe.get("petal width (cm)"), y_train)
 
 plt.show()
-grr = scatter_matrix(iris_dataframe,c=y_train,figsize = (15,15),marker="0",hist_kwds={'bins':20},s=60,alpha=.8,cmap=mglearn.cm3)
+grr = scatter_matrix(iris_dataframe, c=y_train, figsize=(15, 15), marker="0", hist_kwds={'bins': 20}, s=60, alpha=.8,
+                     cmap=mglearn.cm3)
 knn_algo = KNeighborsClassifier(n_neighbors=1)
 knn_algo.fit(X_train, y_train)
 prediction = knn_algo.predict(X_test)
@@ -104,6 +105,8 @@ print("Real Values are {}".format(y_test))
 
 accuracy = knn_algo.score(X_test, y_test)
 print("This is experiment accuracy:%{:.0f}".format(accuracy * 100))
+
+
 
 # End Of Code
 """
