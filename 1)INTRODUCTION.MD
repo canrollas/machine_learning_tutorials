@@ -18,7 +18,7 @@
 
 #### MACHINE LEARNING TYPES AND CLASSES
 
-<img src="https://raw.githubusercontent.com/canrollas/machine_learning_tutorials/master/class.png">
+<img src="class.png">
 
 <br>
 
