@@ -1,8 +1,11 @@
+import warnings
+
 import mglearn
 import mglearn.datasets as datasets
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
+warnings.filterwarnings("ignore")
 
 X, y = datasets.make_forge()
 # Random state 0 => It will be same.
