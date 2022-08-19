@@ -1,11 +1,3 @@
-# 2.11) LASSO REGRESSION
-
-- An alternative to ridge for regularizing liner regression is lasso. As with ridge regression , using the lasso
-  restricts coefficients to be close to zero , but in a slightly different way called LI regularization.
-- The consequence of LI regularization is that when using the lasso, some coefficients are EXACTLY zero.
-- This means some features are entirely ignored by the model.
-
-```python
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import Lasso
@@ -58,9 +50,3 @@ plt.ylabel("Score value")
 plt.legend()
 plt.title("Score Measure Chart")
 plt.show()
-
-```
-! Inspect code lasso.py and lasso2.py
-<hr>
-2022@CANROLLAS | CANROLLAS@gmail.com
-<hr>
