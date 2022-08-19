@@ -18,7 +18,7 @@
 
 #### MACHINE LEARNING TYPES AND CLASSES
 
-<img src="https://www.researchgate.net/publication/354960266/figure/fig1/AS:1075175843983363@1633353305883/The-main-types-of-machine-learning-Main-approaches-include-classification-and.png">
+<img src="class.png">
 
 <br>
 
